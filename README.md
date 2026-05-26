@@ -5,7 +5,7 @@ Client-facing reports portal for Kreators.
 ## URL convention
 
 ```
-https://kreators-co.github.io/{category}/{client}/{yyyy-mm}-{subject}/
+https://kreators-co.github.io/{category}/{client}/{yyyy-mm}-{subject}-{tier}/
 ```
 
 | Slot | Values |
@@ -14,6 +14,16 @@ https://kreators-co.github.io/{category}/{client}/{yyyy-mm}-{subject}/
 | `client` | internal client code (e.g., `galaxy`, `sm`, `yg`) |
 | `yyyy-mm` | ISO month |
 | `subject` | lowercase, hyphenated |
+| `tier` | `masked` (pre-contract teaser) / `full` (post-contract full report) |
+
+## Two-tier delivery flow
+
+1. **`-masked`** — initial proposal sent to prospect. Key numbers redacted/blurred. URL shared to drive contract signature.
+2. **`-full`** — unmasked full report, delivered only **after** initial contract signed. Same `{subject}` slug, only the tier suffix changes.
+
+Example pair:
+- `analysis/galaxy/2026-05-taemin-us-masked/` ← shared pre-signature
+- `analysis/galaxy/2026-05-taemin-us-full/`   ← shared post-signature
 
 ## Adding a new report
 
