@@ -1,11 +1,11 @@
-# kreators-co.github.io
+# kreatorsnetwork-inc.github.io
 
 Client-facing reports portal for Kreators.
 
 ## URL convention
 
 ```
-https://kreators-co.github.io/{category}/{client}/{yyyy-mm}-{subject}-{tier}/
+https://kreatorsnetwork-inc.github.io/{category}/{client}/{yyyy-mm}-{subject}-{tier}/
 ```
 
 | Slot | Values |
